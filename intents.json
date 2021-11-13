@@ -1,0 +1,249 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "What's up!"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Tata"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "Sir, we only sell coffee. \n  We have 4types of coffee. IRISH Coffee, Espresso, Americano and Cappuccino\n Which type of coffee you need Sir?"
+        ]
+      },
+
+      {
+        "tag": "coffee_types",
+        "patterns": [
+          "coffee please",
+          "I want a cup of coffee",
+          "A cup of coffee",
+          "I need coffee",
+          "I want to drink coffee",
+          "Bring me a cup of coffee",
+          "Give me a cup of coffee",
+          "How many types of coffee do you have?",
+          "Types of coffee?",
+          "Which types of coffee do you have?"
+        ],
+        "responses": [
+          "Sir, We have 4types of coffee. IRISH Coffee, Espresso, Americano and Cappuccino\n Which type of coffee you need Sir?"
+        ]
+      },
+
+      {
+        "tag": "order_cappuccino",
+        "patterns": [
+          "Cappuccino",
+          "1 Cappuccino please",
+          "1 Cappuccino",
+          "1 Cappuccino coffee please",
+          "1 Cappuccino coffee",
+          "one Cappuccino please",
+          "one Cappuccino",
+          "one Cappuccino coffee please",
+          "one Cappuccino coffee"
+        ],
+        "responses": [
+          "Thank you for your order. Please wait some minutes, Sir.",
+          "Thank you Sir. I'll bring your order in a while"
+        ]
+      },
+
+      {
+        "tag": "order_Irish",
+        "patterns": [
+          "Irish",
+          "1 Irish please",
+          "1 Irish",
+          "1 Irish coffee please",
+          "1 Irish coffee",
+          "one Irish please",
+          "one Irish",
+          "one Irish coffee please",
+          "one Irish coffee"
+        ],
+        "responses": [
+          "Thank you for your order. Please wait some minutes, Sir.",
+          "Thank you Sir. I'll bring your order in a while"
+        ]
+      },
+
+      {
+        "tag": "order_Americano",
+        "patterns": [
+          "Americano",
+          "1 Americano please",
+          "1 Americano",
+          "1 Americano coffee please",
+          "1 Americano coffee",
+          "one Americano please",
+          "one Americano",
+          "one Americano coffee please",
+          "one Americano coffee"
+        ],
+        "responses": [
+          "Thank you for your order. Please wait some minutes, Sir.",
+          "Thank you Sir. I'll bring your order in a while"
+        ]
+      },
+
+      {
+        "tag": "order_Espresso",
+        "patterns": [
+          "Espresso",
+          "1 Espresso please",
+          "1 Espresso",
+          "1 Espresso coffee please",
+          "1 Espresso coffee",
+          "one Espresso please",
+          "one Espresso",
+          "one Espresso coffee please",
+          "one Espresso coffee"
+        ],
+        "responses": [
+          "Thank you for your order. Please wait some minutes, Sir.",
+          "Thank you Sir. I'll bring your order in a while"
+        ]
+      },
+
+      {
+        "tag": "price_IRISH_Coffee",
+        "patterns":[
+          "Price of IRISH Coffee?",
+          "What is the price of IRISH Coffee?",
+          "IRISH Coffee price"
+        ],
+        "responses": [
+          "Pay 150 taka for per cup Irish Coffee",
+          "Price of Irish Coffee is 150 taka"
+        ]
+      },
+
+      {
+        "tag": "price_Espresso",
+        "patterns":[
+          "Price of Espresso Coffee?",
+          "What is the price of Espresso Coffee?",
+          "Espresso Coffee price"
+        ],
+        "responses": [
+          "Pay 180 taka for per cup Espresso Coffee",
+          "Price of Espresso Coffee is 180 taka"
+        ]
+      },
+
+      {
+        "tag": "price_Americano",
+        "patterns":[
+          "Price of Americano Coffee?",
+          "What is the price of Americano Coffee?",
+          "Americano Coffee price"
+        ],
+        "responses": [
+          "Pay 190 taka for per cup Americano Coffee",
+          "Price of Americano Coffee is 190 taka"
+        ]
+      },
+
+      {
+        "tag": "price_Cappuccino",
+        "patterns":[
+          "Price of Cappuccino Coffee?",
+          "What is the price of Cappuccino Coffee?",
+          "Cappuccino Coffee price"
+        ],
+        "responses": [
+          "Pay 250 taka for per cup Cappuccino Coffee",
+          "Price of Cappuccino Coffee is 250 taka"
+        ]
+      },
+
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take payment with Bkash?",
+          "Do you take payment with Rocket?",
+          "Do you take payment with Nagad?",
+          "Can I pay with Bkash?",
+          "Can I pay with Rocket?",
+          "Can I pay with Nagad?",
+          "Are you cash only?",
+          "payment method"
+        ],
+        "responses": [
+          "We accept Cash, Bkash, Rocket, Nagad"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "shipping time",
+          "delivery time"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "address",
+        "patterns": [
+          "Give me address",
+          "Coffie shop address",
+          "address"
+        ],
+        "responses": [
+          "Housing Field, Maijdee, Noakhali"
+        ]
+      },
+      {
+        "tag": "price",
+        "patterns": [
+          "Tell me the price of coffee.",
+          "What is the price of coffee?",
+          "coffee price"
+        ],
+        "responses": [
+          "IRISH Coffee : 150 taka \n         Espresso : 180 taka \n          Americano : 190 taka \n         Cappuccino : 250 taka"
+        ]
+      }
+
+      
+    ]
+  }
